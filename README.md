@@ -8,7 +8,7 @@
 - 统计指定时间段内的最受欢迎的用户（以 ip 为单位）
 - 统计指定时间段内的不同模块的访问量
 # 项目架构
-![](基于SparkStreaming的日志分析项目/项目架构.png)
+discuz --->  blog --->  flume ---> kafka ---> sparkstreaming ---> mysql
 # 代码分析
 resources  
 &emsp;&emsp;&emsp;&emsp;access_log.txt:日志样例  
